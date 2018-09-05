@@ -8,4 +8,7 @@ class Transfer
     @status = "pending"
   end
 
+  def valid?
+    sender.Bankstatus == "open" && @balance > 0
+  end
 end
