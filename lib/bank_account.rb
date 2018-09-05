@@ -12,6 +12,7 @@ class BankAccount
     @balance = @balance + money
   end
 
+<<<<<<< HEAD
   def display_balance
     "Your balance is $#{@balance}."
   end
@@ -21,4 +22,7 @@ class BankAccount
   end
   
   def close_
+=======
+  def 
+>>>>>>> f81e370928bb437c3c9694c933a518337c632b7c
 end
