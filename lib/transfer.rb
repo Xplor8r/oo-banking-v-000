@@ -3,7 +3,7 @@ class Transfer
   attr_accessor :money
   def initialize(sender, receiver, money)
     @sender = sender
-    @reciever = receiver
+    @receiver = receiver
     @money = money
   end
 
